@@ -36,7 +36,7 @@
 
 .inicio{
   background-color: black;
-  height: 740px;
+  height: 687px;
 }
 
 .sobre{
@@ -67,4 +67,16 @@
 .duvidas{
   background-color: black;
   height: 740px;
+}
+
+button{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 21px;
 }
