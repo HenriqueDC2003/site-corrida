@@ -40,7 +40,7 @@
 }
 
 .sobre{
-  background-color: #ffdb58;
+  background-color: #e9bf40;
   height: 681px;
 }
 
@@ -90,4 +90,30 @@ button{
   font-size: 47px;
   line-height: 51px;
   word-spacing: 20px;
+}
+
+.sobre{
+  display: flex;
+  justify-content: start;
+}
+
+.sobre h2{
+  padding-bottom: 470px;
+  padding-left: 80px;
+  color: white;
+  font-size: 59px;
+  line-height: 59px;
+}
+
+.imagem_sobre1{
+  background-color: blue;
+  padding-right: 50px;
+  height: 300px;
+  width: 100px;
+}
+
+.imagem_sobre2{
+  background-color: brown;
+  height: 20px;
+  width: 20px;
 }
