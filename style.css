@@ -46,7 +46,7 @@
 
 .movemento_site{
   background-color: white;
-  height: 681px;
+  height: 800px;
 }
 
 .calendario{
@@ -92,28 +92,42 @@ button{
   word-spacing: 20px;
 }
 
-.sobre{
-  display: flex;
-  justify-content: start;
+.sobre h2{
+  color: rgb(255, 255, 255);
+  padding-top: 90px;
+  padding-left: 85px;
+  font-size: 50px;
+  line-height: 51px;
+  word-spacing: 20px;
+  width: 200px;
 }
 
-.sobre h2{
-  padding-bottom: 470px;
-  padding-left: 80px;
-  color: white;
-  font-size: 59px;
-  line-height: 59px;
+.imagens_sobre{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .imagem_sobre1{
   background-color: blue;
-  padding-right: 50px;
-  height: 300px;
-  width: 100px;
+  height: 395px;
+  width: 270px;
+  margin-left: 85px;
+  border-radius: 70px;
 }
 
 .imagem_sobre2{
   background-color: brown;
-  height: 20px;
-  width: 20px;
+  height: 395px;
+  width: 270px;
+  margin-left: 96px;
+  border-radius: 70px;
+}
+
+.texto_sobre{
+  height: 430px;
+  font-size: 27px;
+  line-height: 43px;
+  margin-left: 215px;
+  white-space: pre-line;
 }
