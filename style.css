@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: #000000;
+  background-color: #0A0A0A;
   color: #fff;
   padding: 15px;
   display: flex;
@@ -41,10 +41,10 @@
 
 .sobre{
   background-color: #e9bf40;
-  height: 681px;
+  height: 739px;
 }
 
-.movemento_site{
+.movimento_site{
   background-color: white;
   height: 800px;
 }
@@ -55,21 +55,21 @@
 }
 
 .obstaculos{
-  background-color: #ffdb58;
-  height: 683px;
+  background-color: #e9bf40;
+  height: 739px;
 }
 
 .cadastro{
   background-color: white;
-  height: 689px;
+  height: 739px;
 }
 
 .duvidas{
   background-color: black;
-  height: 640px;
+  height: 739px;
 }
 
-button{
+.button_inicio{
   background-color: #ff3131;
   height: 60px;
   width: 262px;
@@ -103,9 +103,11 @@ button{
 }
 
 .imagens_sobre{
+  margin-top: 35px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  height: 410px;
 }
 
 .imagem_sobre1{
@@ -125,9 +127,31 @@ button{
 }
 
 .texto_sobre{
-  height: 430px;
-  font-size: 27px;
-  line-height: 43px;
-  margin-left: 215px;
-  white-space: pre-line;
+  margin-left: 180px;
+  height: 500px;
+  width: 330px;
+  font-size: 26px;
+  line-height: 47px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.button_sobre{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: 50px;
+  margin-left: 267px;
+}
+
+.h2_mov_site{
+  color: #000;
+  font-size: 59px;
+  line-height: 59px;
 }
