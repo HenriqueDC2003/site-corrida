@@ -35,7 +35,7 @@
 }
 
 .inicio{
-  background-color: black;
+  background-image: url("./logo.JPG");
   height: 739px;
 }
 
@@ -46,7 +46,7 @@
 
 .movimento_site{
   background-color: white;
-  height: 800px;
+  height: 739px;
 }
 
 .calendario{
@@ -150,8 +150,96 @@
   margin-left: 267px;
 }
 
-.h2_mov_site{
+.movimento_site h2{
   color: #000;
   font-size: 59px;
   line-height: 59px;
+  padding-top: 90px;
+  padding-left: 85px;
+}
+
+.imagens_mov{
+  display: flex;
+  justify-content: flex-start;
+  height: 410px;
+  align-items: center;
+}
+
+.agenda_mov{
+  background-color: #e9bf40;
+  height: 375px;
+  width: 340px;
+  margin-top: 140px;
+  margin-left: 85px;
+  border-radius: 30px;
+}
+
+.obstaculos_mov{
+  background-color: #e9bf40;
+  height: 375px;
+  width: 340px;
+  margin-top: 140px;
+  margin-left: 85px;
+  border-radius: 30px;
+}
+
+.cadastro_mov{
+  background-color: #e9bf40;
+  height: 375px;
+  width: 340px;
+  margin-top: 140px;
+  margin-left: 85px;
+  border-radius: 30px;
+}
+
+.button_agenda{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.button_obstaculos{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: 280px;
+  margin-left: 40px;
+}
+
+.button_cadastro{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: 280px;
+  margin-left: 40px;
+}
+
+.texto_baixo_agenda{
+  margin-left: 20px;
+  margin-top: 200px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  width: 300px;
 }
