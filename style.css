@@ -37,6 +37,8 @@
 .inicio{
   background-image: url("./logo.JPG");
   height: 739px;
+  background-repeat: no-repeat; background-size: cover;
+  background-position: center;
 }
 
 .sobre{
@@ -46,7 +48,7 @@
 
 .movimento_site{
   background-color: white;
-  height: 739px;
+  height: 780px;
 }
 
 .calendario{
@@ -81,12 +83,17 @@
   line-height: 10px;
   margin-top: 37px;
   margin-left: 580px;
+  cursor: pointer;
+}
+
+.button_inicio:hover{
+  background-color: #df0000;
 }
 
 .inicio h2{
   color: rgb(255, 255, 255);
   padding-top: 550px;
-  padding-left: 53px;
+  padding-left: 58px;
   font-size: 47px;
   line-height: 51px;
   word-spacing: 20px;
@@ -111,7 +118,7 @@
 }
 
 .imagem_sobre1{
-  background-color: blue;
+  background-image: url("./4e0205be-6b74-4b0c-9c9e-56ee6a1b31c3.JPG");
   height: 395px;
   width: 270px;
   margin-left: 85px;
@@ -119,7 +126,7 @@
 }
 
 .imagem_sobre2{
-  background-color: brown;
+  background-image: url("./18970c11-a9ff-4abc-9c18-ac5cf9454c33.JPG");
   height: 395px;
   width: 270px;
   margin-left: 96px;
@@ -148,6 +155,11 @@
   line-height: 10px;
   margin-top: 50px;
   margin-left: 267px;
+  cursor: pointer;
+}
+
+.button_sobre:hover{
+  background-color: #df0000;
 }
 
 .movimento_site h2{
@@ -170,7 +182,7 @@
   height: 375px;
   width: 340px;
   margin-top: 140px;
-  margin-left: 85px;
+  margin-left: 100px;
   border-radius: 30px;
 }
 
@@ -179,7 +191,7 @@
   height: 375px;
   width: 340px;
   margin-top: 140px;
-  margin-left: 85px;
+  margin-left: 100px;
   border-radius: 30px;
 }
 
@@ -188,7 +200,7 @@
   height: 375px;
   width: 340px;
   margin-top: 140px;
-  margin-left: 85px;
+  margin-left: 100px;
   border-radius: 30px;
 }
 
@@ -204,6 +216,11 @@
   line-height: 10px;
   margin-top: 20px;
   margin-left: 40px;
+  cursor: pointer;
+}
+
+.button_agenda:hover{
+  background-color: #df0000;
 }
 
 .button_obstaculos{
@@ -216,8 +233,13 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 10px;
-  margin-top: 280px;
+  margin-top: 20px;
   margin-left: 40px;
+  cursor: pointer;
+}
+
+.button_obstaculos:hover{
+  background-color: #df0000;
 }
 
 .button_cadastro{
@@ -230,16 +252,78 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 10px;
-  margin-top: 280px;
+  margin-top: 20px;
   margin-left: 40px;
+  cursor: pointer;
+}
+
+.button_cadastro:hover{
+  background-color: #df0000;
+}
+
+.texto_cima_agenda{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 15px;
 }
 
 .texto_baixo_agenda{
   margin-left: 20px;
-  margin-top: 200px;
+  margin-bottom: 10px;
   word-wrap: break-word;
   text-align: center;
   font-size: 16px;
   line-height: 22px;
   width: 300px;
 }
+
+.texto_cima_obstaculos{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 15px;
+}
+
+.texto_baixo_obstaculos{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  width: 300px;
+}
+
+.texto_cima_cadastro{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 15px;
+}
+
+.texto_baixo_cadastro{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  width: 300px;
+}
+
+.button_cadastro_baixo{
+  background-color: #ff3131;
+  height: 60px;
+  width: 262px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 10px;
+  margin-top: 120px;
+  margin-left: 580px;
+  cursor: pointer;
+}
+
